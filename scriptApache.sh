@@ -13,4 +13,5 @@ echo "Descompactando..."
 unzip main.zip
 cd linux-site-dio-main
 
+echo "Copiando para Apache..." 
 cp -R * /var/www/html/
